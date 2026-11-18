@@ -1,44 +1,14 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gereja Kami</title>
-  <!-- Panggil Font Elegan dari Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Halaman HTML</title>
+    <a href="index.html">Home</a>
+    <a href="nama_halaman.html">nama_hal</a>
+    <a href="index.html">Home</a>
+    <a href="nama_halaman.html">nama_hal</a>
 </head>
 <body>
-
-  <!-- Bagian Header -->
-  <header>
-    <div class="logo">Gereja<span>Kita</span></div>
-    <nav>
-      <a href="#">Beranda</a>
-      <a href="#">Jadwal</a>
-      <a href="#">Kontak</a>
-    </nav>
-  </header>
-
-  <!-- Bagian Utama / Hero -->
-  <section class="hero">
-    <h1>Selamat Datang di Rumah Tuhan ⛪</h1>
-    <p>Mari beribadah, melayani, dan bertumbuh bersama dalam iman.</p>
-    
-    <!-- 3 Tombol Utama dengan Efek Cipratan -->
-    <div class="button-container">
-      <button class="btn-gold ripple-btn" onclick="showContent('persembahan')">💛 Persembahan & QRIS</button>
-      <button class="btn-gold ripple-btn" onclick="showContent('pelayanan')">📝 Daftar Pelayanan</button>
-      <button class="btn-gold ripple-btn" onclick="showContent('pengurus')">👥 Pengurus Gereja</button>
-    </div>
-  </section>
-
-  <!-- Bagian Konten Dinamis (Muncul Saat Tombol Diklik) -->
-  <section id="content-display" class="content-box">
-    <p class="placeholder-text">✨ Silakan klik salah satu tombol di atas untuk melihat informasi.</p>
-  </section>
-
-  <!-- Sambungkan ke JavaScript -->
-  <script src="script.js"></script>
+    <h1>Halo Dunia!</h1>
 </body>
 </html>
